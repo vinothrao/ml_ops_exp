@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "MLFLOW_ENDPOINT_URL": "",
+    "DATABRICKS_CLIENT_ID": "",
+    "DATABRICKS_CLIENT_SECRET": "",
+    "DATABRICKS_WORKSPACE_URL": "",
+    "DATABRICKS_JOB_ID": ""
+  }
+}
