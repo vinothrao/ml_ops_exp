@@ -1,0 +1,50 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.app-container {
+  min-height: 100vh;
+  background-color: #f5f7fa;
+  position: relative;
+  width: 100%;
+}
+
+.app-header {
+  width: 100%;
+  text-align: left;
+  padding: 1.5rem 2rem;
+  background-color: #ffffff;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.app-header h1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2.8rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  position: relative;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  #root {
+    padding: 0;
+  }
+  
+  .app-header {
+    padding: 2rem 1rem;
+  }
+  
+  .app-header h1 {
+    font-size: 2rem;
+  }
+}
